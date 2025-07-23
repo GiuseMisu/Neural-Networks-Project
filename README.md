@@ -63,7 +63,38 @@ We use the [EEG_Image_CVPR_ALL_subj](https://huggingface.co/datasets/luigi-s/EEG
 
 - Quantitative metrics: MSE, Cosine Similarity, per-token Similarity.
 - Qualitative results: Generated images compared to ground truth and text prompts.
-- Inspired by the metrics used in GWIT paper [1] the N-way Top-k Accuracy Score was measured, it uses image classification models (ImageNet-1k) to assess subject identity in generated images
+- Inspired by the metrics used in GWIT paper the N-way Top-k Accuracy Score was measured, it uses image classification models (ImageNet-1k) to assess subject identity in generated images.
+
+<p align="center">
+  <img src="assets/ImgEmbed_SimilarityMetrics.png" width="64.5%" />
+  <img src="assets/TextEmbed_SimilarityMetrics.png" width="34.4%" />
+</p>
+
+<div align=center><img src="assets/ImgQuality_metric.png" width="500px"/></div>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="assets/Panda_TEXTEmbed_EEGNetTrasformer.png" width="500" alt="Text‑Embed EEGNetTransformer"><br>
+      <b>EEGNetTransformer, Text‑Embed</b>
+    </td>
+    <td align="center">
+      <img src="assets/Panda_ImgEmbed_NervFormer.png" width="500" alt="NervFormer"><br>
+      <b>NervFormer, Image‑Embed</b>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="assets/Panda_ImgEmbed_EEGFormer_MseLoss.png" width="500" alt="MSE Loss"><br>
+      <b>EEGFormer MSE Loss, Image‑Embed</b>
+    </td>
+    <td align="center">
+      <img src="assets/Panda_ImgEmbed_EEGFormer_ContrasiveLoss.png" width="500" alt="Contrastive Loss"><br>
+      <b>EEGFormer Contrastive Loss, Image‑Embed</b>
+    </td>
+  </tr>
+</table>
+
 
 
 ## References Papers
