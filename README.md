@@ -1,5 +1,5 @@
 # Multimodal Learning Alignment of Brain Activity Representations
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ORzNUowET_GmLy0Z-d5SDQchTkn_WwEB?usp=sharing)
 ## Overview
 
 This project explores transformer-based models for interpreting **human EEG signals** recorded during the observation of images. The ultimate goal is to reconstruct meaningful representations of the observed images from EEG data, alignment with CLIP embedding, enabling image generation via diffusion models using only brain activity.
